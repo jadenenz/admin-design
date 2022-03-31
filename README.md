@@ -1,2 +1,2 @@
-# project-skeleton
-basic setup for a project
+# admin-design
+the odin project design mockup for admin page
