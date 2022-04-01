@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .whole-page-container {
@@ -13,6 +16,12 @@ body {
 
 .dashboard {
     font-size: 1.25em;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard > img {
+    margin-right: 15px;
 }
 
 .sidebar {
@@ -45,6 +54,8 @@ body {
 
 .sidebar-button {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .header-top {
@@ -90,4 +101,19 @@ body {
 
 .project-card {
     gap: 50px;
+}
+
+.navbar-buttons > button {
+    background-color: #7C3AED;
+    color: white;
+    border: none;
+    border-radius: 30%;
+}
+
+.announcements {
+    margin-bottom: 25px;
+}
+
+.sidebar-button > img {
+    margin-right: 20px;
 }
