@@ -54,6 +54,7 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 6fr 4fr;
+    padding-top: 20px;
 }
 
 .sidebar-button {
@@ -127,8 +128,21 @@ body {
     gap: 15px;
 }
 
+.projects-title, .announcements-title, .trending-title{
+    font-weight: Bold;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
 .project-card {
     gap: 50px;
+    height: 220px;
+    width: 600px;
+    background-color: white;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 5px;
+    
 }
 
 .navbar-buttons > button {
@@ -142,6 +156,13 @@ body {
 
 .announcements {
     margin-bottom: 25px;
+    height: 475px;
+    width: 425px;
+    background-color: white;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .sidebar-button > img {
@@ -170,7 +191,6 @@ body {
     justify-content: space-between;
     margin-right: 3%;
     align-items: center;
-    
 }
 
 .corner-kitty{
